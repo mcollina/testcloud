@@ -1,5 +1,3 @@
-CREATE DATABASE pet_shop;
-
 CREATE TABLE pets (
     pet_id SERIAL PRIMARY KEY,
     pet_name VARCHAR(255) NOT NULL,
